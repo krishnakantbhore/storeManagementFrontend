@@ -1,0 +1,57 @@
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLmNzcyIsInNvdXJjZXMiOlsiY3VzdG9tLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9 */
+
+/*# sourceMappingURL=custom.css.map */
+
+
+
+  
+  /* 🔹 Card-style form */
+  .col {
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(224, 215, 215, 0.1);
+    max-width: 400px;
+  }
+  
+  /* 🔹 Labels */
+  label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  /* 🔹 Input fields */
+  .form-control {
+    width: 100%;
+    /* padding: 12px; */
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* 🔹 Input focus effect */
+  .form-control:focus {
+    /* border-color: #ff758c; */
+    box-shadow: 0 0 8px rgba(255, 117, 140, 0.5);
+  }
+  
+  /* 🔹 Button styles */
+  .btn-success {
+    background: linear-gradient(45deg, #28a745, #218838);
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  
+  .btn-success:hover {
+    background: linear-gradient(45deg, #218838, #28a745);
+    transform: scale(1.05);
+  }
+  
