@@ -109,7 +109,6 @@ export default function Navbar() {
                     to={"/Inword"}
                     className="nav-link menu-toggle nav-link "
                   >
-                    <i className="fa-solid fa-box"></i>
                     <span>Inword</span>
                   </NavLink>
                 </li>
@@ -118,7 +117,6 @@ export default function Navbar() {
                     to={"/item_list"}
                     className="nav-link menu-toggle nav-link "
                   >
-                    <i className="fa-solid fa-box"></i>
                     <span>Total Data</span>
                   </NavLink>
                 </li>
@@ -134,7 +132,6 @@ export default function Navbar() {
                     className="menu-toggle nav-link has-dropdown"
                     onClick={(e) => e.preventDefault()}
                   >
-                    <i className="fa-solid fa-boxes-stacked"></i>
                     <span>Outword</span>
                   </a>
                   <ul className={`dropdown-menu ${open ? "show" : ""}`}>
@@ -159,7 +156,6 @@ export default function Navbar() {
                   }}
                 >
                   <a href="#" className="menu-toggle nav-link has-dropdown">
-                    <i className="fa-solid fa-user"></i>
                     <span>Employ Master</span>
                   </a>
                   <ul className={`dropdown-menu ${inopen ? "show" : ""}`}>
@@ -194,7 +190,6 @@ export default function Navbar() {
                   className="dropdown"
                 >
                   <a href="#" className="menu-toggle nav-link has-dropdown">
-                    <i className="fa-solid fa-database"></i>
                     <span>Report</span>
                   </a>
                   <ul className={`dropdown-menu ${repopen ? "show" : ""}`}>
