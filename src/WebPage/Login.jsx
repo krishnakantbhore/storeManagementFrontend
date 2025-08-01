@@ -29,16 +29,8 @@ export default function Login() {
   },[data,isLoggedIn,setIsLoggedIn,navigate,path.pathname])
   return (
     <>
-      <div
-        className="main-content justify-content-center   mt-0 align-items-center"
-        style={{
-          minHeight: "100vh",
-          backgroundColor: "#f8f9fa",
-          marginLeft: "160px",
-          marginTop: "-100px ",
-        }}
-      >
-        <section className="section mt-0 " style={{ maxWidth: "400px" }}>
+      <div className=" mt-5 d-flex flex-column justify-content-center align-items-center mt-0">
+        <section className="section mt-5" style={{ maxWidth: "400px" }}>
           <Form method="POST">
             <div className="row bg-white rounded shadow-color p-5">
               <div className="col-12 text-dark text-center">
@@ -60,7 +52,7 @@ export default function Login() {
               <div className="col-12 mb-3">
                 <label htmlFor="password">Password:</label>
                 <input
-                  type="text"
+                  type="password"
                   id="password"
                   name="password"
                   className="form-control"
@@ -77,13 +69,15 @@ export default function Login() {
                 </button>
               </div>
 
-              {/* <div className="col-12 mb-3 mt-4 text-center  ">
-                <span className="text-color">
-                  {" "}
-                  Don't have an account?{" "}
-                  <NavLink to={"/register_form"}>Register here</NavLink>
-                </span>
-              </div> */}
+              {/* Optional link to register */}
+              {/* 
+        <div className="col-12 mb-3 mt-4 text-center">
+          <span className="text-color">
+            Don't have an account?{" "}
+            <NavLink to="/register_form">Register here</NavLink>
+          </span>
+        </div> 
+        */}
             </div>
           </Form>
         </section>

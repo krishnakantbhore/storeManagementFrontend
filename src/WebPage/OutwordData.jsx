@@ -74,31 +74,33 @@ export default function OutwordData() {
               <h4 className="text-center mb-3">Search Items By</h4>
               <Form method={"POST"}>
                 <div className="row">
-                  <div className="col-md-6">
-                    <div className="search-element ">
+                  <div className="col-4 mb-3">
+                    <div className="search-element">
                       <select
                         onChange={(e) => setSearchType(e.target.value)}
-                        className={
-                          "col-md-2 text-center p-2 font-15 form-control"
-                        }
+                        className="form-control text-center p-2"
                       >
-                        <option value={`text`}>Name</option>
-                        <option value={`date`}>Date</option>
-                        <option value={`department`}>Department</option>
+                        <option value="text">Name</option>
+                        <option value="date">Date</option>
+                        <option value="department">Department</option>
                       </select>
                     </div>
                   </div>
 
-                  <div className="col-md-3">
+                  <div className="col-5 mb-3">
                     <input
                       type={searchType}
                       className="form-control"
                       name={searchType}
+                      placeholder="Enter Name ..."
                     />
                   </div>
-                  <button type="submit" className="btn btn-primary">
-                    Search Items
-                  </button>
+
+                  <div className="col-3 text-center">
+                    <button type="submit" className="btn btn-primary w-100 p-2">
+                      Search
+                    </button>
+                  </div>
                 </div>
               </Form>
             </div>

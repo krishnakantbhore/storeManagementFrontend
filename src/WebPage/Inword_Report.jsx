@@ -49,13 +49,16 @@ export default function SearchableTable() {
               <h4 className="text-center mb-3">Search Items</h4>
 
               <Form method={"POST"}>
-                <div className="row">
-                  <div className="col-md-6">
+                <div className="row text-center">
+                  <div className="col-md-6 text-center">
                     <input type="date" className="form-control" name={"date"} />
                   </div>
-                  <button type="submit" className="btn btn-primary">
-                    Search Items
-                  </button>
+
+                  <div className=" col-md-6  text-">
+                    <button type="submit" className="btn btn-primary">
+                      Search Items
+                    </button>
+                  </div>
                 </div>
               </Form>
             </div>
