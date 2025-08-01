@@ -64,7 +64,7 @@ export default function Navbar() {
               <div className="ml-auto">
                 <button
                   className=" btn btn-sm text-dark  "
-                  style={{ marginLeft: "290px" }}
+                  style={{ marginLeft: "270px" }}
                   onClick={handleclick}
                 >
                   Logout <i class="fa-solid fa-arrow-right-to-bracket"></i>
